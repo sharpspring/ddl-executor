@@ -515,7 +515,7 @@ func (o *Executor) enterRenameTableStmt(stmt *ast.RenameTableStmt) error {
 
 		if newDatabaseName == oldDatabaseName && newTableName == oldTableName {
 			// Nothing to do
-			return nil
+			continue
 		}
 
 		if newDatabaseName != oldDatabaseName {
