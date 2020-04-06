@@ -1,4 +1,4 @@
-module github.com/bytewatch/ddl-executor
+module github.com/mc0/ddl-executor
 
 require (
 	github.com/go-sql-driver/mysql v0.0.0-20170715192408-3955978caca4
